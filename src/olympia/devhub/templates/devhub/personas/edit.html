@@ -59,7 +59,7 @@
           <p><a href="{{ url('stats.usage', addon.slug) }}">{{ _('View Statistics') }}</a></p>
         {% endif %}
         {% if can_delete %}
-          <a href="#" class="button scary delete-addon">{{ _('Delete Theme') }}</a>
+          <a href="#" class="button delete-addon">{{ _('Delete Theme') }}</a>
           <div class="modal-delete modal hidden">
             {% include 'devhub/addons/listing/delete_form.html' %}
           </div>
